@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;    
+}
+.containerCorpo{
+    scroll-behavior: smooth;
+}
+body{
+    flex-direction: column;   
+    color: white;              
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;    
+    padding: 5px;        
+    text-align: center ;
+    background-color: #00001a; /* For browsers that do not support gradients */
+    
+    
+}
+.cabeca{
+    border-radius: 15px;
+    box-sizing: content-box;
+    background-image: linear-gradient(#00001a,#2a005a,#87ceeb);    
+}
+#ceu{     
+    width: 100%;
+    padding: 10% auto;    
+}
+
+.caixaNome{
+    font-size: 5vw;    
+    text-align: center;    
+}
+.caixaApresentacao{   
+    font-size: 3vw;    
+}
+nav{    
+    display: flex;
+    justify-content: space-evenly;    
+    gap: 2px;
+    margin-top: 50px;   
+    background-color: #3545DB;     
+    border: 1px solid white;
+    border-radius: 15px;    
+    
+}
+.formacaoConteudo,
+.experienciaConteudo,
+.habilidadeConteudo,
+.motivacoesConteudo,
+.portifolioConteudo,
+.contatosConteudo{
+    font-size: 2vw;    
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.descricao{
+    font-size: 2vw;
+    padding: 0% auto;
+    margin: 0% auto;    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0;    
+}
+.containerCorpo{
+    margin-top: 10%;
+       
+}
+#formacao{
+    padding: 0;
+    background-color: #00001a;
+    margin: 0%;  
+    border-radius: 15px;
+}
+.experiencia,
+.habilidades,
+.motivacoes,
+.portifolio{    
+    padding: 0;
+    background-color: #00001a;
+    margin: 0%;  
+    border-radius: 15px;       
+}
+.corpo{
+    width: 50%;
+    padding: 10% auto;
+    
+}
+.expImg,
+.habImg,
+.motImg{
+    width: 50%;
+    padding: 10% auto;
+}
+.btnFormacao:hover,
+.btnExperiencia:hover,
+.btnHabilidades:hover,
+.btnMotivacoes:hover,
+.btnPortifolio:hover,
+.btnContatos:hover{   
+    padding: 5px auto;
+    border: 5px solid white;
+    border-radius: 15px;
+    cursor: pointer;   
+}
+.formacaoCaixa{
+    color: #3545DB;
+    font-size: 4vw;
+    margin-bottom: 0%;
+    padding: 0px;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #fefeff;      
+}
+
+.experienciaDescricao,
+.habilidadesCaixa,
+.motivacoesCaixa,
+.portifolioCaixa{
+    font-size: 4vw;
+    background-color: #3545DB ;
+    padding: 0px;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.linksPortifolio{
+    display: flex;
+    align-items: flex-start;
+    margin: 10%;
+    color: #000000;    
+}
+.decodificador{
+    display: flex;
+    justify-content: left;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: #3545DB;
+    font-size: 1vw;
+}
+.imgDecodificador{
+    margin: 0%;
+    width: 20vw;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255); 
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.readDecoder{
+    text-align: left;
+    margin: 10px;
+    color: white;   
+}
+footer{
+    border-radius: 15px;
+    
+}
+#contatos{
+    background-color: #000000;
+    padding: 0;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    
+}
+#linkedin{
+    color: #0e76a8 ;
+    font-size: 2vw;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #00001a;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-decoration: none;
+}
+#whatsaap{
+    color: rgb(42, 209, 42);
+    font-size: 2vw;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #00001a;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-decoration: none;
+}
+#git{
+    color:  #c97d26;
+    font-size: 2vw;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #00001a;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-decoration: none;
+}
+#facebook{
+    color:  #3b5998;
+    font-size: 2vw;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #00001a;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+#instagram{
+    color: #3f729b;
+    font-size: 2vw;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #00001a;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-decoration: none;
+}
+#cv{
+    color: white;
+    font-size: 2vw;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #00001a;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.email{
+    font-size: 2vw ;
+}
+#sobe{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 5vw;
+    opacity: 0.6    ;  
+}
