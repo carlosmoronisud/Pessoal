@@ -60,18 +60,20 @@ nav{
 }
 .descricao{
     font-size: 2vw;
-    padding: 0% auto;
+    padding-top: 20%;
+    padding-bottom: 20%;
     margin: 0% auto;    
 }
 main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 50px;
-    margin: 0;    
+    padding: 0px;
+    margin-right: 10%;
+    margin-left: 10%;  
 }
 .containerCorpo{
-    margin-top: 10%;
+    margin-top: 0%;
        
 }
 #formacao{
@@ -84,30 +86,35 @@ main{
 .habilidades,
 .motivacoes,
 .portifolio{    
-    padding: 0;
+    padding: 100%;
     background-color: #00001a;
     margin: 0%;  
     border-radius: 15px;       
 }
-.corpo{
-    width: 50%;
-    padding: 10% auto;
-    
-}
+.corpo,
 .expImg,
 .habImg,
 .motImg{
-    width: 50%;
+    width: 60%;
     padding: 10% auto;
+}
+.formacaoConteudo:hover,
+.experienciaConteudo:hover,
+.habilidadeConteudo:hover,
+.motivacoesConteudo:hover,
+.portifolioConteudo:hover,
+.contatosConteudo:hover{
+    color: black;
 }
 .btnFormacao:hover,
 .btnExperiencia:hover,
 .btnHabilidades:hover,
 .btnMotivacoes:hover,
 .btnPortifolio:hover,
-.btnContatos:hover{   
+.btnContatos:hover{      
     padding: 5px auto;
-    border: 5px solid white;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
     border-radius: 15px;
     cursor: pointer;   
 }
@@ -132,6 +139,7 @@ main{
     border: 1px solid white;
     border-radius: 15px;
     cursor: pointer;
+    
 }
 .linksPortifolio{
     display: flex;
@@ -248,7 +256,24 @@ footer{
     .expImg,
     .habImg,
     .motImg{
-        width: 100%;
+        width: 90%;
         padding: 10% auto;
     }
+}
+@media (max-width: 600px){
+    .experienciaDescricao,
+    .habilidadesCaixa,
+    .motivacoesCaixa,
+    .portifolioCaixa{
+        font-size: 5vw;    
+    }
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    margin-right: 5%;
+    margin-left: 5%;  
 }
