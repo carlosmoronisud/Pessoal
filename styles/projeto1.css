@@ -243,3 +243,12 @@ footer{
     width: 5vw;
     opacity: 0.6    ;  
 }
+@media(max-width:500px){
+    .corpo,
+    .expImg,
+    .habImg,
+    .motImg{
+        width: 100%;
+        padding: 10% auto;
+    }
+}
