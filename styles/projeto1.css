@@ -44,7 +44,8 @@ nav{
     margin-top: 50px;   
     background-color: #3545DB;     
     border: 1px solid white;
-    border-radius: 15px;    
+    border-radius: 15px;
+    padding: 1%;
     
 }
 .formacaoConteudo,
@@ -54,9 +55,9 @@ nav{
 .portifolioConteudo,
 .contatosConteudo{
     font-size: 2vw;    
-    text-align: center;
+    text-align: center;   
     color: white;
-    text-decoration: none;
+    text-decoration: none;    
 }
 .descricao{
     font-size: 2vw;
@@ -68,9 +69,9 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0px;
-    margin-right: 10%;
-    margin-left: 10%;  
+    padding: 10px;
+    margin-right: 30%;
+    margin-left: 30%;  
 }
 .containerCorpo{
     margin-top: 0%;
@@ -95,6 +96,7 @@ main{
 .expImg,
 .habImg,
 .motImg{
+    box-sizing: content-box;
     width: 60%;
     padding: 10% auto;
 }
@@ -105,13 +107,15 @@ main{
 .portifolioConteudo:hover,
 .contatosConteudo:hover{
     color: black;
+    margin: 10px;
 }
 .btnFormacao:hover,
 .btnExperiencia:hover,
 .btnHabilidades:hover,
 .btnMotivacoes:hover,
 .btnPortifolio:hover,
-.btnContatos:hover{      
+.btnContatos:hover{
+    
     padding: 5px auto;
     border: 2px solid rgb(0, 0, 0);
     background-color: white;
@@ -147,13 +151,14 @@ main{
     margin: 10%;
     color: #000000;    
 }
-.decodificador{
+#decodificador{
     display: flex;
     justify-content: left;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
     background-color: #3545DB;
     font-size: 1vw;
+    text-decoration: none;
 }
 .imgDecodificador{
     margin: 0%;
@@ -246,9 +251,9 @@ footer{
 }
 #sobe{
     position: fixed;
-    right: 20px;
-    bottom: 20px;
-    width: 5vw;
+    right: 10px;
+    bottom: 60px;
+    width: 7vw;
     opacity: 0.6    ;  
 }
 @media(max-width:500px){
