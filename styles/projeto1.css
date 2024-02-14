@@ -286,7 +286,7 @@ footer{
 @media (max-width:500px){
     #sobe
     {
-        size: 10vw;
+        width: 10vw;
     }
 }
 main{
