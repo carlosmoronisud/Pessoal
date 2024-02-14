@@ -283,6 +283,12 @@ footer{
     }
     
 }
+@media (max-width:500px){
+    #sobe
+    {
+        size: 10vw;
+    }
+}
 main{
     display: flex;
     flex-direction: column;
