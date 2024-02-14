@@ -254,7 +254,16 @@ footer{
     right: 10px;
     bottom: 60px;
     width: 7vw;
-    opacity: 0.6    ;  
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    transform: translatey(100%);
+    cursor: pointer;
+}
+#sobe.visible{
+    visibility: visible;
+    opacity: 0.6;
+    transform: translateY(0);
 }
 @media(max-width:500px){
     .corpo,
