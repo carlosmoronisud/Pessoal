@@ -16,4 +16,4 @@ Para acessar, clique [neste link](https://pessoal-6cen.vercel.app/).
 - CSS
 - JavaScript
 
-Agradeço à Alura+One pela oportunidade de aprendizado, aprendi na plataforma as tecnologias que me permitiram criar esse projeto.
+Agradeço à Alura+One pela oportunidade de aprendizado, aprendi em sua plataforma as tecnologias que me permitiram criar esse projeto.
