@@ -1,6 +1,6 @@
 # Pagina de apresentação pessoal
 
-Um currículo on line de apresentação dos meus projetos para ajudar empresas a visualisar meu trabalho.
+Um currículo on-line de apresentação dos meus projetos para ajudar empresas a visualisar meu trabalho.
 
 Para acessar, clique [neste link](https://pessoal-6cen.vercel.app/).
 
