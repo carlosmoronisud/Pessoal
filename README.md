@@ -6,8 +6,8 @@ Para acessar, clique [neste link](https://pessoal-6cen.vercel.app/).
 
 ## Funcionalidades
 
-- *Painel de navegação superior:* ao clicar nos botões "Formação", "Experiência", "Habilidades", "Motivação", ou "Protfólio", a página rolará até o elemento selecionado.
-- *Botão de retornar ao topo* Ao clicar no botão "Sobe", a página rolará para o topo da pagina.
+- *Painel de navegação superior,* ao clicar nos botões "Formação", "Experiência", "Habilidades", "Motivação", ou "Protfólio", a página rolará até o elemento selecionado.
+- *Botão de retornar ao topo,* ao clicar no botão "Sobe", a página rolará para o topo da pagina.
 
 
 ## Tecnologias Utilizadas
